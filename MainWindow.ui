@@ -223,6 +223,10 @@
           <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
          </property>
          <property name="text">
@@ -244,6 +248,10 @@
           <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
          </property>
          <property name="text">
@@ -265,6 +273,10 @@
           <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
          </property>
          <property name="text">
@@ -337,6 +349,10 @@
             <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
            </property>
            <property name="text">
@@ -357,6 +373,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -382,7 +402,7 @@
 }</string>
              </property>
              <property name="text">
-              <string>Textlabel</string>
+              <string>Icon1</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -404,6 +424,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -425,6 +449,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -482,6 +510,10 @@
             <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
            </property>
            <property name="text">
@@ -502,6 +534,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -521,7 +557,7 @@
 }</string>
              </property>
              <property name="text">
-              <string>TextLabel</string>
+              <string>Icon2</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -543,6 +579,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -564,6 +604,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -621,6 +665,10 @@
             <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
            </property>
            <property name="text">
@@ -641,6 +689,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -660,7 +712,7 @@
 }</string>
              </property>
              <property name="text">
-              <string>TextLabel</string>
+              <string>Icon2</string>
              </property>
              <property name="alignment">
               <set>Qt::AlignmentFlag::AlignCenter</set>
@@ -682,6 +734,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">
@@ -703,6 +759,10 @@
               <string notr="true">QFrame {
     background-color: rgba(0, 0, 0, 0);
     border-radius: 0px;
+}
+
+QLabel {
+	color: white
 }</string>
              </property>
              <property name="text">

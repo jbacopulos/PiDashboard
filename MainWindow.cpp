@@ -208,6 +208,9 @@ void MainWindow::onNewsLoaded()
             "   background-color: rgba(0, 0, 0, 0);"
             "   border-radius: 0px;"
             "}"
+            "QLabel {"
+            "   color: white;"
+            "}"
             );
         label->setWordWrap(true);
         ui->column2->layout()->addWidget(label);
