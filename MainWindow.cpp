@@ -114,8 +114,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::setupWindow()
 {
-    this->setFixedSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-    this->setWindowFlag(Qt::FramelessWindowHint);
+    ui->centralwidget->setFixedSize(800, 480);
 }
 
 void MainWindow::setupBackground()
@@ -131,7 +130,7 @@ void MainWindow::setupFonts()
 {
     int fontId = QFontDatabase::addApplicationFont(":/Roboto-Round.ttf");
     if (fontId < 0) {
-        qWarning() << "Failed to load Roboto-Round.ttf!";
+        qInfo() << "Failed to load Roboto-Round.ttf!";
         return;
     }
 
@@ -254,7 +253,7 @@ void MainWindow::onForecastLoaded()
     std::sort(forecastList.begin(), forecastList.end(), compareByDate);
 
     if (forecastList.size() < 3) {
-        qWarning() << "Not enough forecast data; expected at least 3 days.";
+        qInfo() << "Not enough forecast data; expected at least 3 days.";
         return;
     }
 
@@ -293,6 +292,6 @@ void MainWindow::updateForecastUI(
 
 void MainWindow::onErrorQuit(const QString &error)
 {
-    qCritical() << "Error:" << error;
+    qInfo() << "Error:" << error;
     QApplication::quit();
 }

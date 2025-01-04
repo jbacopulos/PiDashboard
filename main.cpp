@@ -20,13 +20,13 @@ int main(int argc, char *argv[])
     const QStringList REQUIRED_ENV_VARS = {"ZIP", "UNIT", "OW_API_KEY", "W_API_KEY"};
 
     if (QCoreApplication::arguments().size() != 2) {
-        qCritical() << "Env file must be specified!";
+        qInfo() << "Env file must be specified!";
         return EXIT_FAILURE;
     }
 
     QFile envFile(QCoreApplication::arguments().at(1));
     if(!envFile.open(QIODevice::ReadOnly)) {
-        qCritical() << envFile.errorString();
+        qInfo() << envFile.errorString();
         return EXIT_FAILURE;
     }
 
@@ -51,12 +51,12 @@ int main(int argc, char *argv[])
     envFile.close();
 
     if (!mapHasAllEntries(REQUIRED_ENV_VARS, envVars)) {
-        qCritical() << "Missing required env variables!";
+        qInfo() << "Missing required env variables!";
         return EXIT_FAILURE;
     }
 
     MainWindow w(envVars);
-    w.show();
+    w.showFullScreen();
 
     return a.exec();
 }
