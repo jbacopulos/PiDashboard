@@ -68,6 +68,11 @@
           <property name="layoutDirection">
            <enum>Qt::LayoutDirection::LeftToRight</enum>
           </property>
+          <property name="styleSheet">
+           <string notr="true">QLabel {
+	color: white
+}</string>
+          </property>
           <property name="text">
            <string>11:28</string>
           </property>
@@ -94,6 +99,11 @@
               <pointsize>24</pointsize>
              </font>
             </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	color: white
+}</string>
+            </property>
             <property name="text">
              <string>56</string>
             </property>
@@ -108,6 +118,11 @@
              <font>
               <pointsize>24</pointsize>
              </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QLabel {
+	color: white
+}</string>
             </property>
             <property name="text">
              <string>PM</string>
@@ -127,6 +142,11 @@
          <font>
           <pointsize>18</pointsize>
          </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+	color: white
+}</string>
         </property>
         <property name="text">
          <string>Monday, January 1</string>
