@@ -40,6 +40,7 @@ private:
     ImageDownloader downloaderDay1;
     ImageDownloader downloaderDay2;
     ImageDownloader downloaderDay3;
+    QString fontFamily;
 
     void setupWindow();
     void setupBackground();
