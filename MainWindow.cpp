@@ -134,7 +134,7 @@ void MainWindow::setupFonts()
         return;
     }
 
-    QString fontFamily = QFontDatabase::applicationFontFamilies(fontId).at(0);
+    fontFamily = QFontDatabase::applicationFontFamilies(fontId).at(0);
 
     // Large time
     QFont timeFontLg(fontFamily, 72);
@@ -194,6 +194,7 @@ void MainWindow::onNewsLoaded()
 {
     auto items = newsReader.getItems();
     int maxItems = qMin(items.size(), NEWS_MAX_ITEMS);
+    QFont newsFont(fontFamily, 12);
     clearLayout(ui->column2->layout());
 
     for (int i = 0; i < maxItems; ++i) {
@@ -213,6 +214,7 @@ void MainWindow::onNewsLoaded()
             "}"
             );
         label->setWordWrap(true);
+        label->setFont(newsFont);
         ui->column2->layout()->addWidget(label);
     }
 }
