@@ -30,3 +30,11 @@ sudo make install
 ```
 
 The executable will be placed in /usr/local/bin
+
+To use, edit the .env.template file to have the following parameters (don't use any quotes):
+
+```
+ZIP=Your zip code followed by a comma and the country code - ex: 07008,US or H1A,CA
+UNIT=metric or standard or imperial
+OW_API_KEY=Get an openweathermap API key
+W_API_KEY=Get a weatherapi API key
